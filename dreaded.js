@@ -114,11 +114,11 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
     const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+const dev = process.env.DEV || '254115521408'
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
    const bad = process.env.BAD_WORD || 'fuck';
-const botname = process.env.BOTNAME || "DREADED-MD";
+const botname = process.env.BOTNAME || "ZLOUNDER-AI";
 
     const autorecordtypegc = process.env.RECORDING_TYPINGGC || 'TRUE';
     const autoreaddm = process.env.AUTOREAD || 'TRUE';
@@ -197,8 +197,8 @@ const audiovn = "./alive.mp3";
           mentionedJid: [m.sender],
           externalAdReply: {
           title: "Hi human, I am Alive",
-          body: "DREADED BOT",
-          thumbnailUrl: "https://telegra.ph/file/a5147a64a5b91d8cf945c.jpg",
+          body: "ZLOUNDER-AI",
+          thumbnailUrl: "https://telegra.ph/file/74209800b98a19c06eb55.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
